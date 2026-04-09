@@ -1,0 +1,28 @@
+# 4장 유튜브 동영상 검색
+- 텍스트와 각 동영상 사이의 스칼라곱을 계산한다.
+- 역색인
+- 임베딩
+- 텍스트 정규화
+	- Coreference Resolution (공동참조 해소)
+		- Anaphora Resolution (후방참조 해소)
+		- Entity Linking / Named Entity Resolution
+		- BERT
+	- n-gram 언어 모델
+- 토큰화
+- 통계적 방법
+	- 단어 가방 모형(Bag of Words, BoW)
+	- TF-IDF(Term Frequency Inverse Document Frequency)
+- 머린러닝 기반 방법
+	- Embedding
+	- Word2Vec
+	- 트랜스포머 기반 아키텍처
+- 동영상 인코더
+	- 프레임 수준 모델
+		- 동영상 및 샘플 프레임을 전처리한다.
+		- 샘플링된 프레임에서 모델을 실행하여 프레임 임베딩을 생성한다.
+		- 동영상 임베딩을 생성하기 위해서 프레임 임베딩을 집계한다.
+- 서빙
+- 동영상 인덱싱 파이프라인
+	- 동영상 임베딩을 계산하려면 학습된 동영상 인코더를 사용한다.
+- Q. 해시태그기반 데이터를 서빙하려면, mysql, mongodb, postgresql 기반에서 각각 어떻게 인덱싱하면 좋을까요?
+- 돋영상 인기도는 더 많은 피쳐를 사용한다. -> 뭘까요?
